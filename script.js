@@ -2,7 +2,7 @@ let num = Number(prompt('Введите число'));
 let sum = 0;
 
 if (isNaN(num)) {
-    num = Number(prompt('Было введено не число, попробуйте еще раз'));
+    num = Number(prompt('Invalid. You should enter a number, please enter your number again'));
     for (let i = 1; i <= num; i += 2) {
         console.log(i);
         sum = sum + i;
