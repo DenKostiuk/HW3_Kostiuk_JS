@@ -1,6 +1,9 @@
-let number = prompt('Введите число повторений');
+let num = prompt('Введите число повторений');
 
-for (i = 0; i < number; i++) {
-    console.log(`.#`);
-    
+let result = "";
+
+for (let i = 1; i <= num; i++) {
+    result += '#.';
 };
+
+console.log(result);
